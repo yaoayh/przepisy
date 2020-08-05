@@ -1,0 +1,101 @@
+body {
+    width: 414px;
+    
+	margin: 0px;
+    background-color: whitesmoke;}
+
+/*                      Nagłówek                    */
+
+#header {
+    top: 0px;
+    width: 414px;
+    height: 90px;
+    position: fixed;
+    background-color: black;
+}
+
+.picture{
+    margin: 16px;
+    float: left;
+    width: 82px;
+    transform: rotate(45deg);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 30px;
+    margin-left: 120px;
+    margin-top: 0px;
+    
+}
+
+.info_Nr1{
+    background-color: black;
+    border: 4px 0px 4px 0px;
+    border-color: white;
+    border-style: double;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: auto;
+    margin: 0px;
+    letter-spacing: 0.09em;
+}
+
+/*                      BLOKI                   */
+
+form.head_Sqares {
+    margin: auto;
+    height: 531px; /*531px;*/
+    width: 354px;/*354px;*/
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.sqares_Left{
+    border-radius: 15px;
+    width: 172px;
+    height: 172px;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    float: left;
+    margin-top: 3px;
+    
+}
+.sqares_Right{
+    border-radius: 15px;
+    width: 172px;
+    height: 172px;
+    background-color: black;
+    color: white;
+    margin-top: 3px;
+    overflow: auto;
+    float: right ;
+    clear: right;
+}
+p {
+    padding: 33px 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.10em;
+}
+#bigger {
+    padding: 0px 0px;
+}
+/*                  PRAWA AUTORSKIE             */
+
+#bottom {
+    text-decoration: none;
+}
