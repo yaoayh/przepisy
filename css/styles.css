@@ -244,7 +244,7 @@ form.form_Undersite{
     background-color: rgb(245, 245, 245);
 }
 .name{
-    max-width: 350px;
+    max-width: 400px;
     border-radius: 35px;
     border: 8px double cornflowerblue;
     background-color: hsl(245,0%,95%);
