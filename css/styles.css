@@ -1,7 +1,7 @@
 
-html{overflow:auto ;}
+html{overflow: scroll;}
 body {
-    overflow: auto;
+    
     height: auto;
 	margin: 0px;
     background-color: whitesmoke;}
@@ -10,19 +10,17 @@ body {
 
 #header {
     top: 0px;
-    width: 5000px;
+    width: 100%;
     height: 90px;
     position: fixed;
     background-color: black;
-    border-bottom: 2px solid cornflowerblue;
-}
+    border-bottom: 2px solid cornflowerblue;}
 
 .picture{
     margin: 16px;
     float: left;
     width: 82px;
-    transform: rotate(45deg);
-}
+    transform: rotate(45deg);}
 
 h1 {
     text-transform: uppercase;
@@ -32,9 +30,7 @@ h1 {
     color: whitesmoke;
     padding: 30px;
     margin-left: 120px;
-    margin-top: 0px;
-    
-}
+    margin-top: 0px;}
 
 
 /*                  CZESC II                    */
@@ -43,8 +39,7 @@ form.main2{
     height: auto; /*531px;*/
     width: 354px;/*354px;*/
     background-color: whitesmoke;
-    padding: 5px;
-}
+    padding: 5px;}
 .info_Nr1, .info_Nr2{
     background-color: black;
     border: 12px 12px 12px 12px;
@@ -52,8 +47,7 @@ form.main2{
     border-style: double;
     text-align: center;
     margin-top: 120px;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px;}
 
 h3 {
     color: cornflowerblue;
@@ -61,8 +55,7 @@ h3 {
     text-align: center;
     padding: auto;
     margin: 0px;
-    letter-spacing: 0.09em;
-}
+    letter-spacing: 0.09em;}
 
 /*                      BLOKI                   */
 
@@ -71,8 +64,7 @@ form.head_Sqares {
     height: 531px; /*531px;*/
     width: 354px;/*354px;*/
     background-color: whitesmoke;
-    padding: 5px;
-}
+    padding: 5px;}
 
 .sqares_Left{
     text-decoration: none;
@@ -83,9 +75,7 @@ form.head_Sqares {
     color: white;
     overflow: auto;
     float: left;
-    margin-top: 3px;
-    
-}
+    margin-top: 3px;}
 .first_Choice{color: cornflowerblue;}
 .sqares_Right{
     text-decoration: none;
@@ -97,8 +87,7 @@ form.head_Sqares {
     margin-top: 3px;
     overflow: auto;
     float: right ;
-    clear: right;
-}
+    clear: right;}
 p {
     text-decoration: none;
     padding-top: 55px;
@@ -106,25 +95,21 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     letter-spacing: 0.10em;
-    margin:0px;
-}
+    margin:0px;}
 p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66); 
 text-decoration: none;}
 p.p1{
     text-decoration: none;
     padding: 21px;
-    color: cornflowerblue;
-}
+    color: cornflowerblue;}
 #bigger {
-    padding: 0px 0px;
-}
+    padding: 0px 0px;}
 .info_Nr2 {margin-top: 10px;}
 
 .n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11,.n12,.n13,.n14,.n15,.n16,.n17,.n18,.n19,.n20,.n21,.n22,.n23,.n24,.n25{
     border-radius: 15px;
     border: 2px solid whitesmoke;
-    clear: both;
-}
+    clear: both;}
 div.n1 {
     
     background-color: hsl(0, 0%, 90%);
@@ -224,7 +209,7 @@ div.header_Undersite {
     height: 90px;
     position: fixed;
     background-color: black;
-    border-bottom: 2px solid cornflowerblue;
+    border-bottom: 2px solid red;
 }
 a.m1:visited{
     color: cornflowerblue;
@@ -245,14 +230,71 @@ td{
     text-decoration: solid;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
-    background-color: red;
-    border: 2px solid blue;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    
 }
 form.form_Undersite{
-    text-overflow: clip;
-    background-color: grey;
+    margin-top: 120px;
+    background-color: rgb(245, 245, 245);
 }
-.name{background-color: green;}
-html{
-    overflow-x: auto;
+.name{
+    max-width: 350px;
+    border-radius: 35px;
+    border: 8px double cornflowerblue;
+    background-color: hsl(245,0%,95%);
+    padding: 5px 0px 5px 5px;
+    margin: 5px;}
+    
+h2 {
+    text-align: left;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    font-style: normal;
+    color: whitesmoke;
+    padding: 30px;
+    border: 1px solid cornflowerblue;
+    border-radius: 0px 20px 20px 0px;
+    max-width: 120px;
+    background-color: cornflowerblue;
+    }
+table {
+    
+    margin-right: 0px;
+    padding: 10px 0px 10px 0px;
+}
+td {
+    background-color: hsl(0,0%,87%);
+    border-radius: 10px;
+    padding: 10px 5px 10px 10px;
+    text-align: right; 
+    font-weight: bold;
+}
+td.table2{
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    font-weight: normal;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+ol{
+    padding: 10px 0px 10px 0px;
+    margin: 25px;
+    border-radius: 20px;
+    background-color: hsl(0,0%,87%);
+}
+li {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 15px 5px 10px 5px;
+}
+.ps{
+    background-color: hsl(0,0%,87%);
+    margin: 5px;
+    border: 4px double cadetblue;
+    border-radius: 5px;
+    padding: 5px;
 }
