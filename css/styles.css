@@ -1,6 +1,6 @@
 body {
     
-    
+    height: auto;
 	margin: 0px;
     background-color: whitesmoke;}
 
@@ -34,6 +34,15 @@ h1 {
     
 }
 
+
+/*                  CZESC II                    */
+form.main2{
+    margin: auto;
+    height: auto; /*531px;*/
+    width: 354px;/*354px;*/
+    background-color: whitesmoke;
+    padding: 5px;
+}
 .info_Nr1, .info_Nr2{
     background-color: black;
     border: 12px 12px 12px 12px;
@@ -107,6 +116,7 @@ p.p1{
 .n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11,.n12,.n13,.n14,.n15,.n16,.n17,.n18,.n19,.n20,.n21,.n22,.n23,.n24,.n25{
     border-radius: 15px;
     border: 2px solid whitesmoke;
+    clear: both;
 }
 div.n1 {
     
@@ -186,12 +196,14 @@ div.n1 {
 }
 
 
-/*                  CZESC II                    */
-
-
 
 /*                  PRAWA AUTORSKIE             */
-
-#bottom {
+a {
     text-decoration: none;
+    color: white;
+}
+.bottom {
+    text-decoration: none;
+    background-color: black;
+    color: white;
 }
