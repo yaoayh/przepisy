@@ -12,6 +12,7 @@ body {
     height: 90px;
     position: fixed;
     background-color: black;
+    border-bottom: 2px solid cornflowerblue;
 }
 
 .picture{
@@ -44,7 +45,7 @@ h1 {
 }
 
 h3 {
-    color: white;
+    color: cornflowerblue;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: auto;
@@ -73,6 +74,7 @@ form.head_Sqares {
     margin-top: 3px;
     
 }
+.first_Choice{color: cornflowerblue;}
 .sqares_Right{
     border-radius: 15px;
     width: 172px;
@@ -92,23 +94,97 @@ p {
     letter-spacing: 0.10em;
     margin:0px;
 }
-p.p1{padding: 21px;}
+p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);}
+p.p1{
+    padding: 21px;
+    color: cornflowerblue;
+}
 #bigger {
     padding: 0px 0px;
 }
 .info_Nr2 {margin-top: 10px;}
 
-div.n1 {
+.n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11,.n12,.n13,.n14,.n15,.n16,.n17,.n18,.n19,.n20,.n21,.n22,.n23,.n24,.n25{
     border-radius: 15px;
     border: 2px solid whitesmoke;
+}
+div.n1 {
+    
     background-color: hsl(0, 0%, 90%);
 }
 .n2{
-    background-color: hsl(0,0%,85%);
+    background-color: hsl(0,0%,87%);
 }
 .n3{
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 84%);
 }
+.n4{
+    background-color: hsl(0, 0%, 81%);
+}
+.n5{
+    background-color: hsl(0, 0%, 78%);
+}
+.n6{
+    background-color: hsl(0, 0%, 75%);
+}
+.n7{
+    background-color: hsl(0, 0%, 72%);
+}
+.n8{
+    background-color: hsl(0, 0%, 69%);
+}
+.n9{
+    background-color: hsl(0, 0%, 66%);
+}
+.n10{
+    background-color: hsl(0, 0%, 63%);
+}
+.n11{
+    background-color: hsl(0, 0%, 60%);
+}
+.n12{
+    background-color: hsl(0, 0%, 57%);
+}
+.n13{
+    background-color: hsl(0, 0%, 54%);
+}
+.n14{
+    background-color: hsl(0, 0%, 51%);
+}
+.n15{
+    background-color: hsl(0, 0%, 48%);
+}
+.n16{
+    background-color: hsl(0, 0%, 45%);
+}
+.n17{
+    background-color: hsl(0, 0%, 42%);
+}
+.n18{
+    background-color: hsl(0, 0%, 39%);
+}
+.n19{
+    background-color: hsl(0, 0%, 36%);
+}
+.n20{
+    background-color: hsl(0, 0%, 33%);
+}
+.n21{
+    background-color: hsl(0, 0%, 30%);
+}
+.n22{
+    background-color: hsl(0, 0%, 27%);
+}
+.n23{
+    background-color: hsl(0, 0%, 24%);
+}
+.n24{
+    background-color: hsl(0, 0%, 21%);
+}
+.n25{
+    background-color: hsl(0, 0%, 18%);
+}
+
 
 /*                  CZESC II                    */
 
