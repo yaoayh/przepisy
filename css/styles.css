@@ -33,9 +33,9 @@ h1 {
     
 }
 
-.info_Nr1{
+.info_Nr1, .info_Nr2{
     background-color: black;
-    border: 4px 0px 4px 0px;
+    border: 12px 12px 12px 12px;
     border-color: white;
     border-style: double;
     text-align: center;
@@ -85,15 +85,35 @@ form.head_Sqares {
     clear: right;
 }
 p {
-    padding: 33px 10px;
+    padding-top: 55px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     letter-spacing: 0.10em;
+    margin:0px;
 }
+p.p1{padding: 21px;}
 #bigger {
     padding: 0px 0px;
 }
+.info_Nr2 {margin-top: 10px;}
+
+div.n1 {
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    background-color: hsl(0, 0%, 90%);
+}
+.n2{
+    background-color: hsl(0,0%,85%);
+}
+.n3{
+    background-color: hsl(0, 0%, 80%);
+}
+
+/*                  CZESC II                    */
+
+
+
 /*                  PRAWA AUTORSKIE             */
 
 #bottom {
