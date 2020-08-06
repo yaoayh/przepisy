@@ -1,5 +1,5 @@
 body {
-    width: 414px;
+    
     
 	margin: 0px;
     background-color: whitesmoke;}
@@ -8,7 +8,7 @@ body {
 
 #header {
     top: 0px;
-    width: 414px;
+    width: 5000px;
     height: 90px;
     position: fixed;
     background-color: black;
