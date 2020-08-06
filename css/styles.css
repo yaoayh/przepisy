@@ -1,5 +1,7 @@
+
+html{overflow:auto ;}
 body {
-    
+    overflow: auto;
     height: auto;
 	margin: 0px;
     background-color: whitesmoke;}
@@ -73,6 +75,7 @@ form.head_Sqares {
 }
 
 .sqares_Left{
+    text-decoration: none;
     border-radius: 15px;
     width: 172px;
     height: 172px;
@@ -85,6 +88,7 @@ form.head_Sqares {
 }
 .first_Choice{color: cornflowerblue;}
 .sqares_Right{
+    text-decoration: none;
     border-radius: 15px;
     width: 172px;
     height: 172px;
@@ -96,6 +100,7 @@ form.head_Sqares {
     clear: right;
 }
 p {
+    text-decoration: none;
     padding-top: 55px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -103,8 +108,10 @@ p {
     letter-spacing: 0.10em;
     margin:0px;
 }
-p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);}
+p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66); 
+text-decoration: none;}
 p.p1{
+    text-decoration: none;
     padding: 21px;
     color: cornflowerblue;
 }
@@ -198,12 +205,54 @@ div.n1 {
 
 
 /*                  PRAWA AUTORSKIE             */
-a {
+.a_Bottom {
     text-decoration: none;
     color: white;
+    text-decoration-line: underline;
 }
 .bottom {
+    padding: 5px;
     text-decoration: none;
     background-color: black;
     color: white;
+}
+/**************************************************************************************/
+
+div.header_Undersite {
+    top: 0px;
+    width: 5000px;
+    height: 90px;
+    position: fixed;
+    background-color: black;
+    border-bottom: 2px solid cornflowerblue;
+}
+a.m1:visited{
+    color: cornflowerblue;
+}
+a {
+    
+    text-decoration: whitesmoke;
+
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: none;
+}
+td{
+    font-size: large;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: red;
+    border: 2px solid blue;
+}
+form.form_Undersite{
+    text-overflow: clip;
+    background-color: grey;
+}
+.name{background-color: green;}
+html{
+    overflow-x: auto;
 }
