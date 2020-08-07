@@ -49,15 +49,18 @@ form.main2{
     border-style: double;
     text-align: center;
     margin-top: 120px;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+}
 
 h3 {
+    font-weight: normal;
     color: cornflowerblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Gill Sans", Arial, sans-serif;
+    text-transform: uppercase;
     text-align: center;
-    padding: auto;
+    padding: 4px;
     margin: 0px;
-    letter-spacing: 0.09em;}
+    letter-spacing: 0.2em;}
 
 /*                      BLOKI                   */
 
@@ -95,13 +98,15 @@ p {
     text-decoration: none;
     padding-top: 55px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     letter-spacing: 0.10em;
     margin:0px;}
-p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66); 
+p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 text-decoration: none;}
 p.p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     padding: 21px;
     color: cornflowerblue;}
@@ -273,7 +278,11 @@ table {
     margin-right: 0px;
     padding: 10px 0px 10px 0px;
 }
+tr{
+    empty-cells: hide;
+}
 td {
+    width: 60px;
     background-color: hsl(0,0%,87%);
     border-radius: 10px;
     padding: 10px 5px 10px 10px;
@@ -281,6 +290,7 @@ td {
     font-weight: bold;
 }
 td.table2{
+    width: auto;
     background-color: cornflowerblue;
     border-radius: 50px;
     font-weight: normal;
