@@ -44,7 +44,7 @@ form.main2{
     background-color: whitesmoke;
     padding: 5px;}
 .info_Nr1, .info_Nr2{
-    background-image: linear-gradient(to right, black 3%,#2cb5e8 95%);
+    background-image: linear-gradient( black,rgb(68, 68, 68),black);
     border: 12px 12px 12px 12px;
     border-color: black;
     border-style: single;
@@ -55,7 +55,7 @@ form.main2{
 
 h3 {
     font-weight: normal;
-    color: whitesmoke;
+    color: cornflowerblue;
     font-family: "Gill Sans", Arial, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -80,11 +80,11 @@ form.head_Sqares {
     height: 172px;
     background-image: linear-gradient(whitesmoke, black);
     background-image: linear-gradient(white, black, black);
-    background-image: radial-gradient(circle,black,black 50%,whitesmoke 70%);
+    background-image: radial-gradient(circle,black,black,#2cb5e8 %);
     color: white;
     overflow: auto;
-    /* border: 2px solid rgba(0, 0, 0, .1); */
-    /* border-top: 2px solid rgba(245, 245, 245, 0.959); */
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-top: 2px solid rgba(245, 245, 245, 0.959);
     /* border-top: 2px solid rgb(133, 133, 133); */
 
 }
