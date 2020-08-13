@@ -43,7 +43,7 @@ form.main2{
     background-color: whitesmoke;
     padding: 5px;}
 .info_Nr1, .info_Nr2{
-    background-image: linear-gradient( black,rgb(3, 16, 31), black);
+    background-image: linear-gradient( black,rgba(0, 0, 0, 0.788), black);
     border: 12px 12px 12px 12px;
     border-color: white;
     border-style: double;
@@ -74,14 +74,13 @@ form.head_Sqares {
 .sqares_Left, .sqares_Right {
     text-decoration: none;
     border-radius: 15px;
-    margin-top: 2px;
     width: 172px;
     height: 172px;
-    background-image: linear-gradient(rgb(133, 133, 133), black);
+    background-image: linear-gradient(rgb(187, 179, 179), black);
     color: white;
     overflow: auto;
     border: 2px solid rgba(0, 0, 0, .1);
-    border-top: 2px solid rgb(133, 133, 133);
+    border-top: 2px solid rgb(245, 245, 245);
 
 }
 .sqares_Left{

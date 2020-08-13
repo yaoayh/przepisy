@@ -1,10 +1,26 @@
 
 html{overflow: scroll;}
 body {
+
+    /*
+    *
+    *
+    *
+    *
+    *
+    */
+    
+    /*
+    *
+    *
+    *
+    *
+    *
+    */
+    
     height: auto;
 	margin: 0px;
-    background-color: whitesmoke;
-}
+    background-color: whitesmoke;}
 
 /*                      Nagłówek                    */
 body.body_Undersite{
@@ -43,7 +59,7 @@ form.main2{
     background-color: whitesmoke;
     padding: 5px;}
 .info_Nr1, .info_Nr2{
-    background-image: linear-gradient( black,rgb(3, 16, 31), black);
+    background-color: black;
     border: 12px 12px 12px 12px;
     border-color: white;
     border-style: double;
@@ -71,28 +87,29 @@ form.head_Sqares {
     background-color: whitesmoke;
     padding: 5px;}
 
-.sqares_Left, .sqares_Right {
+.sqares_Left{
     text-decoration: none;
     border-radius: 15px;
-    margin-top: 2px;
     width: 172px;
     height: 172px;
-    background-image: linear-gradient(rgb(133, 133, 133), black);
+    background-color: black;
     color: white;
     overflow: auto;
-    border: 2px solid rgba(0, 0, 0, .1);
-    border-top: 2px solid rgb(133, 133, 133);
-
-}
-.sqares_Left{
     float: left;
-    }
-/* .first_Choice{color: cornflowerblue;} */
+    margin-top: 3px;}
+.first_Choice{color: cornflowerblue;}
 .sqares_Right{
+    text-decoration: none;
+    border-radius: 15px;
+    width: 172px;
+    height: 172px;
+    background-color: black;
+    color: white;
+    margin-top: 3px;
+    overflow: auto;
     float: right ;
     clear: right;}
 p {
-
     border-radius: 5px;
     text-decoration: none;
     padding-top: 55px;
@@ -110,7 +127,6 @@ p.p1{
     padding: 21px;
     color: cornflowerblue;}
 #bigger {
-    font-size: 9px;
     padding: 0px 0px;}
 .info_Nr2 {margin-top: 10px;}
 

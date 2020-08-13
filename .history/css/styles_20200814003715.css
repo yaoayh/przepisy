@@ -43,7 +43,7 @@ form.main2{
     background-color: whitesmoke;
     padding: 5px;}
 .info_Nr1, .info_Nr2{
-    background-image: linear-gradient( black,rgb(3, 16, 31), black);
+    background-image: linear-gradient( black,rgb(36, 78, 126), black);
     border: 12px 12px 12px 12px;
     border-color: white;
     border-style: double;
