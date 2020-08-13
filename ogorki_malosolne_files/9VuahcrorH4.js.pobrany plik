@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["uYdlK"]); }
+
+__d("setTimeoutBlue",["TimerStorage","TimeSlice","setTimeoutAcrossTransitions"],(function(a,b,c,d,e,f){function a(a,c){var d,e=function(){b("TimerStorage").unset(b("TimerStorage").TIMEOUT,d);for(var c=arguments.length,e=new Array(c),f=0;f<c;f++)e[f]=arguments[f];Function.prototype.apply.call(a,this,e)};b("TimeSlice").copyGuardForWrapper(a,e);for(var f=arguments.length,g=new Array(f>2?f-2:0),h=2;h<f;h++)g[h-2]=arguments[h];d=b("setTimeoutAcrossTransitions").apply(void 0,[e,c].concat(g));b("TimerStorage").set(b("TimerStorage").TIMEOUT,d);return d}e.exports=a}),null);

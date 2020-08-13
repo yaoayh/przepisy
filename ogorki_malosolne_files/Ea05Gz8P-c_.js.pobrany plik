@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["majXX"]); }
+
+__d("CometBookmarksRoot.react",["CometClassicHomeLeftRailContainer.react","CometListItemGlimmer.react","CometPlaceholder.react","CometProductAttributionContextProvider.react","React","stylex"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g=b("React");function a(a){return g.jsx(b("CometPlaceholder.react"),{fallback:g.jsx(b("CometListItemGlimmer.react"),{imageSize:36,imageStyle:"roundedRect",numberOfItems:9}),children:g.jsx("div",{className:"cxgpxx05",children:g.jsx(b("CometProductAttributionContextProvider.react"),{value:"more",children:g.jsx(b("CometClassicHomeLeftRailContainer.react"),{leftRailContainerQueryReference:a.queries.menuContainerQueryReference})})})})}}),null);

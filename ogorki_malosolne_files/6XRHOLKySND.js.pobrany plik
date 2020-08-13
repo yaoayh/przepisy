@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["u5fgz"]); }
+
+__d("setIntervalAcrossTransitionsBlue",["TimeSlice"],(function(a,b,c,d,e,f){var g=a.__fbNativeSetInterval||a.setInterval;function c(c,d){var e=b("TimeSlice").guard(c,"setInterval");for(var f=arguments.length,h=new Array(f>2?f-2:0),i=2;i<f;i++)h[i-2]=arguments[i];return Function.prototype.apply.call(g,a,[e,d].concat(h))}e.exports=c}),null);

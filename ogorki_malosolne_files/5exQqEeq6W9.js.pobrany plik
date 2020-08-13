@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["x9lux"]); }
+
+__d("clearTimeoutBlue",["TimerStorage","TimeSlice"],(function(a,b,c,d,e,f){var g=a.__fbNativeClearTimeout||a.clearTimeout,h=b("TimerStorage").TIMEOUT;function c(a){if(a!=null){b("TimerStorage").unset(h,a);var c=h+String(a);b("TimeSlice").cancelWithToken(c)}g(a)}e.exports=c}),null);
