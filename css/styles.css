@@ -14,7 +14,7 @@
     100% {
         font-family: "Tw Cen MT";
     } */
-}
+
 @keyframes moving {
     from {
         transform: translateX(-5px);
