@@ -1,4 +1,11 @@
-
+@keyframes main_Circle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 html{overflow: scroll;}
 body {
     height: auto;
@@ -73,16 +80,20 @@ form.head_Sqares {
     padding: 5px;}
 
 .sqares_Left, .sqares_Right {
+    /* opacity: 0; */
     text-decoration: none;
     border-radius: 15px;
     margin-top: 2px;
     width: 172px;
     height: 172px;
-    background-image: linear-gradient(whitesmoke, black);
-    background-image: linear-gradient(white, black, black);
+    /* background-image: linear-gradient(whitesmoke, black); */
+    /* background-image: linear-gradient(white, black, black); */
     background-image: radial-gradient(circle,black,black 50%,whitesmoke 70%);
     color: white;
-    overflow: auto;
+    /* overflow: auto; */
+    animation-name: main_Circle;
+    animation-duration: 3s;
+    
     /* border: 2px solid rgba(0, 0, 0, .1); */
     /* border-top: 2px solid rgba(245, 245, 245, 0.959); */
     /* border-top: 2px solid rgb(133, 133, 133); */
@@ -104,7 +115,8 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     letter-spacing: 0.10em;
-    margin:0px;}
+    margin:0px;
+}
 p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 text-decoration: none;}
