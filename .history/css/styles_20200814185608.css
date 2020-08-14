@@ -80,7 +80,6 @@ h1 {
     margin-top: 0px;
     animation-name: firstletter;
     animation-duration: 15s;
-    animation-iteration-count: infinite;
 }
 
 h1::first-letter {
@@ -171,9 +170,8 @@ p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
 text-decoration: none;
 animation-name: moving;
     animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98);
-    animation-delay: 8s;
-    
+    animation-timing-function:cubic-bezier(.57,-1.01,.67,.68) ;
+    animation-delay: 4s;
 }
 p.p1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -183,8 +181,7 @@ p.p1{
     animation-name: moving;
     animation-duration: 1s;
     animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98);
-    animation-delay: 8s;
-    
+    animation-delay: 8s; ;
 }
 #bigger {
     font-size: 9px;

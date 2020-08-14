@@ -78,14 +78,15 @@ h1 {
     padding: 30px 30px 30px 15px;
     margin-left: 110px;
     margin-top: 0px;
-    animation-name: firstletter;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    /* animation-name: firstletter; */
+    /* animation-duration: 2s; */
 }
 
 h1::first-letter {
     font-size: 150%;
     letter-spacing: 2px;
+    /* animation-name: firstletter;
+    animation-duration: 5s; */
 }
 
 
@@ -171,10 +172,7 @@ p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
 text-decoration: none;
 animation-name: moving;
     animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98);
-    animation-delay: 8s;
-    
-}
+    animation-timing-function:cubic-bezier(.57,-1.01,.67,.68) ;}
 p.p1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
@@ -182,9 +180,7 @@ p.p1{
     color: cornflowerblue;
     animation-name: moving;
     animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98);
-    animation-delay: 8s;
-    
+    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98) ;
 }
 #bigger {
     font-size: 9px;
