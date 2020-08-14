@@ -1,11 +1,3 @@
-@keyframes moving {
-    from {
-        transform: translateX(-5px);
-    }
-    to {
-        transform: translateX(0px);
-    }
-}
 @keyframes shake {
     from {
         color: #2cb5e8;
@@ -142,10 +134,7 @@ p {
 }
 p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-text-decoration: none;
-animation-name: moving;
-    animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.57,-1.01,.67,.68) ;}
+text-decoration: none;}
 p.p1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
@@ -153,7 +142,7 @@ p.p1{
     color: cornflowerblue;
     animation-name: moving;
     animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98) ;
+    animation-timing-function:cubic-bezier(.51,-0.62,.55,1.56) ;
 }
 #bigger {
     font-size: 9px;

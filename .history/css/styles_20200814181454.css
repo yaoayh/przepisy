@@ -3,7 +3,7 @@
         transform: translateX(-5px);
     }
     to {
-        transform: translateX(0px);
+        transform: translateX(5px);
     }
 }
 @keyframes shake {

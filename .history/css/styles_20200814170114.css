@@ -1,29 +1,22 @@
-@keyframes moving {
-    from {
-        transform: translateX(-5px);
-    }
-    to {
-        transform: translateX(0px);
-    }
-}
-@keyframes shake {
-    from {
-        color: #2cb5e8;
-    }
-    to {
-        color: whitesmoke;
-    }
-}
 @keyframes main_Circle {
-    from {
-        /* background-color: cornflowerblue; */
+    0% {
         opacity: 0;
-        /* background-image: radial-gradient(circle,red,red 50%,whitesmoke 70%); */
+        background-image: linear-gradient(circle, #2cb5e8, #2cb5e8 50%,whitesmoke 70%);
     }
-    to {
-        /* background-color: black; */
+    25% {
+        opacity: 0,25;
+        background-image: linear-gradient(circle, #2cb5e8, #2cb5e8 50%,whitesmoke 70%);
+    }
+    50% {
+        opacity: 0,50;
+    }
+    75% {
+        opacity: 0,75;
+        background-image: linear-gradient(circle, #2cb5e8, #2cb5e8 50%,whitesmoke 70%);
+    }
+    100% {
         opacity: 1;
-        /* background-image: radial-gradient(circle,black,black 50%,whitesmoke 70%); */
+        background-image: radial-gradient(circle,black,black 50%,whitesmoke 70%);
     }
 }
 html{overflow: scroll;}
@@ -97,7 +90,6 @@ form.head_Sqares {
     height: 531px; /*531px;*/
     width: 354px;/*354px;*/
     background-color: whitesmoke;
-    border-radius: 20px
     padding: 5px;}
 
 .sqares_Left, .sqares_Right {
@@ -113,7 +105,7 @@ form.head_Sqares {
     color: white;
     /* overflow: auto; */
     animation-name: main_Circle;
-    animation-duration: 3s;
+    animation-duration: 10s;
     
     /* border: 2px solid rgba(0, 0, 0, .1); */
     /* border-top: 2px solid rgba(245, 245, 245, 0.959); */
@@ -137,24 +129,15 @@ p {
     font-size: x-large;
     letter-spacing: 0.10em;
     margin:0px;
-    animation-name: shake;
-    animation-duration: 3s;
 }
 p.p1_Shadow{padding: 21px; color: rgb(70, 66, 66);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-text-decoration: none;
-animation-name: moving;
-    animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.57,-1.01,.67,.68) ;}
+text-decoration: none;}
 p.p1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     padding: 21px;
-    color: cornflowerblue;
-    animation-name: moving;
-    animation-duration: 1s;
-    animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98) ;
-}
+    color: cornflowerblue;}
 #bigger {
     font-size: 9px;
     padding: 0px 0px;}

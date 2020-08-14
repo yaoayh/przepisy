@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["CLJG9"]); }
-
-__d("WorkerUtils",[],(function(a,b,c,d,e,f){"use strict";function b(){try{return"WorkerGlobalScope"in a&&a instanceof a.WorkerGlobalScope}catch(a){return!1}}e.exports={isWorkerContext:b}}),null);

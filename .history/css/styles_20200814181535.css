@@ -3,7 +3,7 @@
         transform: translateX(-5px);
     }
     to {
-        transform: translateX(0px);
+        transform: translateX(5px);
     }
 }
 @keyframes shake {
@@ -152,7 +152,7 @@ p.p1{
     padding: 21px;
     color: cornflowerblue;
     animation-name: moving;
-    animation-duration: 1s;
+    animation-duration: 10s;
     animation-timing-function:cubic-bezier(.58,-1.24,.29,1.98) ;
 }
 #bigger {

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["eDRX7"]); }
-
-__d("clearIntervalBlue",["TimerStorage","TimeSlice"],(function(a,b,c,d,e,f){var g=a.__fbNativeClearTimeout||a.clearTimeout;function c(a){if(a!=null){b("TimerStorage").unset(b("TimerStorage").INTERVAL,a);var c=b("TimerStorage").TIMEOUT+String(a);b("TimeSlice").cancelWithToken(c)}g(a)}e.exports=c}),null);
