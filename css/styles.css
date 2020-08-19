@@ -36,6 +36,9 @@ body {
 /* body.body_Undersite{
     padding: 5px;
 } */
+body {
+    overflow: scroll;
+}
 #header {
     z-index: 10;
     top: 0px;
@@ -261,7 +264,10 @@ div.n1 {
 }
 .n27{background-color: hsl(0, 0%, 12%);}
 
-
+.googleSearch {
+    margin: 0px;
+    padding: 0px;
+}
 /*                  PRAWA AUTORSKIE             */
 .a_Bottom {
     text-decoration: none;
