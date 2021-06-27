@@ -1,0 +1,155 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    width: 375;
+    font-family: 'Inconsolata', monospace;
+    padding: 10%;
+}
+
+ul, li, table, tr, td, th {
+    list-style: none;
+    /* display: inline-table;
+    margin: auto; */
+}
+/* pre loader */
+
+.preloader{
+    /*
+    Making the preloader floating over other elements.
+    The preloader is visible by default. 
+    */
+    background-color: mediumturquoise;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preloaderDot{
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+    animation: loader 2s infinite ease;
+    z-index: 200;
+    
+}
+p.logo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 0.5;
+    font-size: xx-large;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Parisienne', cursive;
+}
+span{
+    font-size: large;
+    line-height: normal;
+    font-family: 'Inconsolata', monospace;
+}
+img{
+    max-width: 300px;
+}
+
+div#shoppingCar{
+    
+}
+div#shoppingCar img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+img#imgHal{
+    display: block;
+    margin: auto;
+    max-width: 100px;    
+}
+h1, h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+div#footer{
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: small;
+    text-align: center;
+}
+p.awardsText{
+    font-weight: bolder;
+}
+p#pDev{
+    margin-bottom: 0px;
+}
+hr {margin:10px 0;
+clear: both;}
+hr#hrNonClear{
+    clear: none;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+hr#hrDaveLine{
+    margin-top: 35px;
+    clear: none;
+}
+img.dev{
+    width: 40%;
+    border-radius: 50%;
+    float: right;
+}
+img#devDave{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div#awards{
+    margin-top: 100px;
+}
+div#awards div{
+    
+    align-items: center;
+}
+div.awards img{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+div#awards div img{
+    width: 30px;
+    height: 30px;
+}
+ul.newpapers li{
+    display: block;
+    float: right;
+}
+ul.newpapers li.newpapers img#newpapers {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 4px;
+    border: solid 1px black;
+}
+li.contact img{
+    width: 70px;
+}
+hr.hrClean{
+    box-sizing: content-box;
+    margin-top: 50px;
+}
+hr.hrNormal{
+    margin: 50px 0;
+    
+    background-color: mediumvioletred;
+}
+div.newpapersImages{
+background-color: mediumvioletred;
+width: 100%;
+height: 800px;
+}
