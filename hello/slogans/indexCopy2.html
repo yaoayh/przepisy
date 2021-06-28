@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="container">
     <div id="header">
         <div id="logo">
             <p class="logo">Matthew <br>& <br> Dave <span class="logo"><br>Advertising slogans</span></p>
@@ -37,8 +38,8 @@
                     
                     <img src="pictures/icons/Cart-icon.png" alt="shoping car">
                 
-                <p>ilosc: x</p>
-                <p>do zapłaty: x</p>
+                <p id="itemsNumber">ilosc: </p>
+                <p id="amount">do zapłaty:</p> 
             </div>
         </div>
     </div>
@@ -59,8 +60,11 @@
             </div>
         </div>
         <hr id="hrDaveLine">
+        <hr id="hrUnderDaveLine">
+        
         <div id="awards">
             <div>
+                <h2>Otrzymane nagrody</h2>
                 <div class="awards">
                     <img src="pictures/awards/trophy.png" alt="triphy" class="award1">
                     <p class="awardsText">Złota Malina</p>
@@ -81,7 +85,7 @@
                 <hr class="hrNormal">
                 <div>
                     <h2>Nasze ostatnie projekty</h2>
-                    <div class="nawpapersImages">
+                    <div id="nawpapersImages">
                         <ul class="newpapers">
                             <li class="newpapers"><img id="newpapers" src="pictures/newspapers/newpaper.jpg" alt="" class="newpapers"></li>
                             <li class="newpapers"><img id="newpapers" src="pictures/newspapers/newpaper1.jpg" alt="" class="newpapers"></li>
@@ -147,22 +151,31 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <div id="sitemap"><ul class="sitemap">
-            <li class="sitemap"><a href="http://">Przepisy pani Jadzi</a></li>
-            <li class="sitemap"><a href="http://"></a>Dave's CV</li>
-            <li class="sitemap"><a href="http://"></a>Mini Matthew's games</li>
-        </ul></div>
-        <div id="contact">
-            <h3>Contact</h3>
-            <p><a href="mailto:yaoayh@gmail.com">yaoayh@gmail.com</a></p>
-            <ul class="contact">
-                <li class="contact"><img src="pictures/footer/facebook.png" alt="facebook"></li>
-                <li class="contact"><img src="pictures/footer/twitter.png" alt="twiteer"></li>
-                <li class="contact"><img src="pictures/footer/vk.png" alt="vk"></li>
-            </ul>
-        </div>
+</div>
+<div id="footer">
+    <!-- <hr class="hrNormal"> -->
+    <div id="contact">
+        <h3>Contact</h3>
+        <p><a href="mailto:yaoayh@gmail.com">yaoayh@gmail.com</a></p>
+        <div class="liDiv">
+        <ul class="contact">
+            <li class="contact"><a href="facebook.com"><img src="pictures/footer/facebook.png" alt="facebook"></a></li>
+            <li class="contact"><a href="twitter.com"><img src="pictures/footer/twitter.png" alt="twiteer"></a></li>
+            <li class="contact"><a href="vk.ru"><img src="pictures/footer/vk.png" alt="vk"></a></li>
+        </ul>
     </div>
+    </div>
+    <div id="sitemap">
+        <h3>Site Map</h3>
+        <div class="liDiv">
+        <ul class="sitemap">
+            <li class="sitemap"><a href="http://">Przepisy pani Jadzi</a></li>
+            <li class="sitemap"><a href="http://">Dave's CV</a></li>
+            <li class="sitemap"><a href="http://">Mini Matthew's games</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
     <!-- pre loader -->
     <div class="preloader">
         <div id="preloaderDot"></div>
@@ -174,6 +187,7 @@
         document.querySelector(".preloader").style.display = "none";
     }
     </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
 <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
