@@ -272,4 +272,9 @@ ul.contact{
     table{
         margin: 5px 0;
     }
-    
+    td {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Parisienne', cursive;
+        padding: 30px 0;
+    }
