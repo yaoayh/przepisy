@@ -274,7 +274,16 @@ ul.contact{
     }
     td {
         text-align: center;
-        font-size: 1.5em;
-        font-family: 'Parisienne', cursive;
+        font-size: 2em;
+        font-family: 'Parisienne';
         padding: 30px 0;
     }
+    /* //// */
+    /* td.wowImageClass img{
+        display: list-item;
+    list-style: square inside url("pictures/icons/iconWow.png");
+            width: 100px;
+            height: 100px;
+            
+        
+    } */

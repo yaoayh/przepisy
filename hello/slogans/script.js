@@ -11,7 +11,8 @@ var imageHalReturn = imageHal.addEventListener("touchend", function(){
     prise = prise + 0.50;
 });
 var numberOfTr = 0;
-var numberOfTd = -2;
+var numberOfTdMiddle = -2;
+var numberOfTdRight = -1;
 var numberOfProducts = 1;
 var prise = 0.50;
 function newSlogan(){
@@ -23,35 +24,33 @@ function newSlogan(){
         var trElement = document.getElementsByTagName("tr")[numberOfTr];
         var createTd = document.createElement("td");
         trElement.appendChild(createTd);
-        numberOfTd ++;
+        numberOfTdMiddle ++;
+        numberOfTdRight ++;
         }
 
-    var tdCreate = document.getElementsByTagName("td")[numberOfTd];
+    var tdCreate = document.getElementsByTagName("td")[numberOfTdMiddle];
+    var tdCreateWow =document.getElementsByTagName("td")[numberOfTdRight];/////
     var createTdSlogan = document.createTextNode(newSloganFunction());
+    var createTdWowImage = document.createElement("img");/////
+    // ('<img src="pictures/icons/iconWow.png">');
     tdCreate.appendChild(createTdSlogan);
     numberOfTr ++;
     console.log("check");
     document.getElementById("itemsNumber").innerHTML = "Ilość: " + numberOfProducts;
     document.getElementById("amount").innerHTML = "Do zapłaty: " + prise + "$";
-    console.log(numberOfTr);
-    console.log(numberOfTd);
+    tdCreateWow.appendChild(createTdWowImage);/////
+    addClass();
+    document.getElementsByClassName("wowImageClass").src="pictures/icons/iconWow.png";/////
+ }
+ function addClass(){
+    var x1 =  document.getElementsByTagName("td")[numberOfTdRight];
+    x1.classList.add("wowImageClass");
  }
 
-// x = addEventListener("click", function(){
-//     newP = document.createElement("p");
-//     newNodeP = document.createTextNode(newSloganFunction());
-//     newP.appendChild(newNodeP);
-//     tableX = document.querySelector("table");
-//     tableX.appendChild(newP);
-// });
-
-
-
-
 // script for creating new slogans
-var word1 = ["interpersonalne", "asymetryczne", "empiryczne", "strategiczne", "liryczne", "kanoniczne", "demokratyczne", "nieskalowalne", "jednokierunkowe", "oportunistyczne"];
+var word1 = ["Interpersonalne", "Asymetryczne", "Empiryczne", "Strategiczne", "Genetyczne", "Kanoniczne", "Demokratyczne", "Nieskalowalne", "Jednokierunkowe", "Oportunistyczne"];
 var word2 = ["wyładowanie", "wyprofilowanie", "udokumentowanie", "wyrównanie", "wyodrębnienie", "rozgałęzienie", "oderwanie", "porównanie", "reagowanie", "korelacjonowanie"];
-var word3 = ["asocjalności twórczej", "pragmatyzmu społecznego", "liberalności narodowej", "jedności komunistycznej", "niepoprawności politycznej", "tradycji Polskiej", "reakcji obronnej", "prokrasycynacji", "teorii darwina", "anonimowości społecznej"];
+var word3 = ["asocjalności twórczej.", "pragmatyzmu społecznego.", "liberalności narodowej.", "jedności komunistycznej.", "niepoprawności politycznej.", "tradycji Polskiej.", "reakcji obronnej.", "prokrasycynacji.", "teorii darwina.", "anonimowości społecznej."];
 function getRandom1() {
     return Math.floor(Math.random() * word1.length);
   }
