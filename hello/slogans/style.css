@@ -160,7 +160,7 @@ ul.contact{
         align-items: center;
     }
     div.awards{
-        padding: 0 20%;
+        padding: 0 5%;
     }
     div.reactions{
         padding: 20%;
@@ -204,7 +204,10 @@ ul.contact{
         margin-top: 50px;
     }
     hr.hrNormal{
-        margin: 50px 0;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     div#reactionsTable2, div#reactionsTable1{
         width: 50%;
