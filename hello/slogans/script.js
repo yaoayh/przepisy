@@ -48,8 +48,8 @@ function newSlogan(){
  }
 
 // script for creating new slogans
-var word1 = ["Interpersonalne", "Asymetryczne", "Empiryczne", "Strategiczne", "Genetyczne", "Kanoniczne", "Demokratyczne", "Nieskalowalne", "Jednokierunkowe", "Oportunistyczne"];
-var word2 = ["wyładowanie", "wyprofilowanie", "udokumentowanie", "wyrównanie", "wyodrębnienie", "rozgałęzienie", "oderwanie", "porównanie", "reagowanie", "korelacjonowanie"];
+var word1 = ["Interpersonalne", "Asymetryczne", "Wektorowe,", "Strategiczne", "Genetyczne", "Kanoniczne", "Demokratyczne", "Nieskalowalne", "Jednokierunkowe", "Oportunistyczne"];
+var word2 = ["ukierunkowanie", "profilowanie", "udokumentowanie", "wyrównanie", "wyodrębnienie", "rozgałęzienie", "oderwanie", "porównanie", "reagowanie", "korelacjonowanie"];
 var word3 = ["asocjalności twórczej.", "pragmatyzmu społecznego.", "liberalności narodowej.", "jedności komunistycznej.", "niepoprawności politycznej.", "tradycji Polskiej.", "reakcji obronnej.", "prokrasycynacji.", "teorii darwina.", "anonimowości społecznej."];
 function getRandom1() {
     return Math.floor(Math.random() * word1.length);
