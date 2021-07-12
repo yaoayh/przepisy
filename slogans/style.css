@@ -1,0 +1,298 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    background-color: white;
+}
+
+/* html{background-color: #000;} */
+div#container{
+    width: 375;
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
+
+}
+
+ul, li, table, tr, td, th {
+    list-style: none;
+    /* display: inline-table;
+    margin: auto; */
+}
+/* pre loader */
+
+.preloader{
+    /*
+    Making the preloader floating over other elements.
+    The preloader is visible by default. 
+    */
+    background-color: mediumturquoise;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preloaderDot{
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+    animation: loader 2s infinite ease;
+    z-index: 200;
+    
+}
+p.logo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 0.5;
+    font-size: xx-large;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Parisienne', cursive;
+}
+span{
+    font-size: large;
+    line-height: normal;
+    font-family: 'Inconsolata', monospace;
+}
+img{
+    max-width: 300px;
+}
+
+div#shoppingCar{
+    
+}
+div#shoppingCar img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+img#imgHal{
+    display: block;
+    margin: auto;
+    max-width: 100px;    
+}
+
+h1, h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    font-variant: small-caps;
+    letter-spacing: 0.8px;
+    
+}
+h3::first-letter, h2::first-letter{
+    color: cornflowerblue;
+}
+
+div#header{
+    margin: 10% 0;
+}
+div#footer{
+    /* border-top: black solid 2px; */
+    text-align: center;
+    margin: 10% 0 0;
+    margin-top: 50px;
+    padding: 0 10%;
+    /* margin-bottom: 50px; */
+    background-image: linear-gradient(to bottom, white, rgba(71, 163, 224, 0.199), rgba(71, 163, 224, 0.199));   
+}
+
+ul.contact{
+    
+    /* width: 30px;
+    height: 30px; */
+}
+
+    p{
+        font-size: small;
+        text-align: center;
+    }
+    p.awardsText{
+        font-weight: bolder;
+    }
+    p#pDev{
+        margin-bottom: 0px;
+    }
+    hr {
+        margin:10px 0;
+        /* background-color: cornflowerblue; */
+        clear: both;}
+    hr#hrNonClear{
+        clear: none;
+        margin-bottom: 20px;
+        visibility: hidden;
+    }
+    hr#hrDaveLine{
+        margin-top: 35px;
+        clear: none;
+    }
+    hr#hrUnderDaveLine{
+        visibility: hidden;
+        margin: 0;
+        clear: both;
+    }
+    img.dev{
+        width: 40%;
+        max-width: 200px;
+        border-radius: 50%;
+        float: right;
+    }
+    img.dev:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    img#devDave{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    div#awards{
+        margin-top: 20px;
+    }
+    div#awards div{
+        
+        align-items: center;
+    }
+    div.awards{
+        padding: 0 5%;
+    }
+    div.reactions{
+        padding: 20%;
+    }
+    div.awards img{
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    ul.newpapers li{
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left;
+    }
+    div#nawpapersImages{
+        min-width: 300px;
+        min-height: 300px;
+        max-height: 300px;
+        
+        max-width: 300px;
+        margin: 0;
+        margin: auto;
+    }
+
+    ul.newpapers li.newpapers img#newpapers {
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+    ul.newpapers li.newpapers img#newpapers:hover{
+        transition: 0.3s;
+        transform: scale(1.5);
+    }
+    li.contact img{
+        width: 70px;
+    }
+    hr.hrClean{
+        box-sizing: content-box;
+        margin-top: 50px;
+    }
+    hr.hrNormal{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    div#reactionsTable2, div#reactionsTable1{
+        width: 50%;
+        text-align: center;
+    }
+    div#reactionsTable1{
+        float: right;
+    }
+    div#reactionsTable2{
+        margin-right: 5%;
+    }
+    div#awards div img{
+        margin-top: 20px;
+        width: 120px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    div#awards div img:hover{
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+    div#awards div.awards img, li.contact img{
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+    li.contact img{
+    float: right;
+    }
+    ul.contact {
+        padding-inline-start: 0;
+        font-size: smaller;
+    }
+    li.contact img:hover{
+        transition: 0.5s;
+        transform: rotate(25deg);
+        
+    }
+    p.reactionsTitle{
+        font-weight: bolder;
+    }
+    div#sitemap{
+        
+        width: 40%;
+        padding-bottom: 50px;
+    }
+    div#contact{
+        width: 40%;
+        float: right;
+        padding-bottom: 50px;
+    }
+    div.liDiv{
+        width: 90px;
+        margin: auto;
+    }
+    a:link{
+        text-decoration: none;
+        color: cornflowerblue;
+        font-family: 'Inconsolata', monospace;
+    }
+    h3 {margin-bottom: 20px;}
+    table{
+        margin: 5px 0;
+    }
+    td {
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+        
+        font-variant: small-caps;
+        letter-spacing: 0.2em;
+        padding: 10px 0;
+        border-bottom: solid 1px rgba(58, 113, 214, 0.404);
+    }
+    td::first-letter {
+        color: rgb(58, 113, 214);
+        font-weight: bold;
+        font-weight: 1.2em;
+    }
+    /* //// */
+    /* td.wowImageClass img{
+        display: list-item;
+    list-style: square inside url("pictures/icons/iconWow.png");
+            width: 100px;
+            height: 100px;
+            
+        
+    } */
